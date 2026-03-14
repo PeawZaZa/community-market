@@ -1,5 +1,7 @@
 # ตลาดชุมชน (Community Market)
-
+---
+## Pawaris Koonsri 67543210037-7
+---
 <p align="center">
   <img src="assets/icons/app_icon_preview.png" width="100" alt="App Icon"/>
 </p>
@@ -133,4 +135,4 @@ flutter build apk --split-per-abi
 
 ## License
 
-MIT License — ใช้งานและพัฒนาต่อได้อย่างอิสระ
+Pawaris Koonsri
