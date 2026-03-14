@@ -117,7 +117,7 @@ flutter build apk --split-per-abi
 
 | หน้าตลาด | รายละเอียดสินค้า | ลงขายสินค้า | โปรไฟล์ |
 |---------|----------------|------------|--------|
-| <img src="assets/images/home.png" width="150"/> หน้าแรก ค้นหา กรองหมวดหมู่ |<img src="assets/images/detail.png" width="150"/> ดูข้อมูล สั่งซื้อ ติดต่อผู้ขาย | <img src="assets/images/add.png" width="150"/>เพิ่มรูป กำหนดราคา จำนวนสต็อก | <img src="assets/images/profile.png" width="150"/>สถิติ สินค้าของฉัน แก้ไขข้อมูล |
+| <img src="assets/images/home.png" width="170"/> <br>หน้าแรก ค้นหา กรองหมวดหมู่ |<img src="assets/images/detail.png" width="170"/><br> ดูข้อมูล สั่งซื้อ ติดต่อผู้ขาย | <img src="assets/images/add.png" width="170"/><br>เพิ่มรูป กำหนดราคา จำนวนสต็อก | <img src="assets/images/profile.png" width="170"/><br>สถิติ สินค้าของฉัน แก้ไขข้อมูล |
 
 ---
 
