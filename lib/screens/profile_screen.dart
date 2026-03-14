@@ -60,9 +60,9 @@ class ProfileScreen extends StatelessWidget {
                 ),
               ),
               provider.myProducts.isEmpty
-                  ? SliverToBoxAdapter(
+                  ? const SliverToBoxAdapter(
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding: EdgeInsets.symmetric(vertical: 20),
                         child: EmptyState(emoji: '🛍️', title: 'ยังไม่มีสินค้า', subtitle: 'กดปุ่ม + เพื่อเพิ่มสินค้าแรกของคุณ'),
                       ))
                   : SliverPadding(

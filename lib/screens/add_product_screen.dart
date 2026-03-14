@@ -172,7 +172,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
             ),
             const SizedBox(height: 20),
 
-            _Label(text: 'ชื่อสินค้า *'),
+            const _Label(text: 'ชื่อสินค้า *'),
             TextFormField(
               controller: _titleCtrl,
               decoration: const InputDecoration(hintText: 'เช่น ผักออร์แกนิก มะม่วงน้ำดอกไม้'),
@@ -180,7 +180,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
             ),
             const SizedBox(height: 16),
 
-            _Label(text: 'หมวดหมู่ *'),
+            const _Label(text: 'หมวดหมู่ *'),
             Wrap(
               spacing: 8,
               runSpacing: 8,
@@ -197,7 +197,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                       border: Border.all(color: isSelected ? AppTheme.primary : AppTheme.border),
                     ),
                     child: Row(mainAxisSize: MainAxisSize.min, children: [
-                      Text(cat['icon'], style: TextStyle(fontSize: 14)),
+                      Text(cat['icon'], style: const TextStyle(fontSize: 14)),
                       const SizedBox(width: 6),
                       Text(cat['name'], style: TextStyle(fontSize: 13, fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400, color: isSelected ? Colors.white : AppTheme.textPrimary)),
                     ]),
@@ -209,7 +209,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
 
             Row(children: [
               Expanded(flex: 2, child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                _Label(text: 'ราคา (บาท) *'),
+                const _Label(text: 'ราคา (บาท) *'),
                 TextFormField(
                   controller: _priceCtrl,
                   decoration: const InputDecoration(hintText: '0', prefixText: '฿ '),
@@ -224,7 +224,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
               ])),
               const SizedBox(width: 12),
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                _Label(text: 'จำนวน *'),
+                const _Label(text: 'จำนวน *'),
                 TextFormField(
                   controller: _stockCtrl,
                   decoration: const InputDecoration(hintText: '1'),
@@ -240,7 +240,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
             ]),
             const SizedBox(height: 16),
 
-            _Label(text: 'รายละเอียด *'),
+            const _Label(text: 'รายละเอียด *'),
             TextFormField(
               controller: _descCtrl,
               decoration: const InputDecoration(hintText: 'อธิบายสินค้าของคุณ เช่น วิธีผลิต แหล่งที่มา คุณสมบัติพิเศษ'),
