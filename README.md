@@ -94,8 +94,8 @@ lib/
 
 ```bash
 # 1. Clone โปรเจกต์
-git clone https://github.com/YOUR_USERNAME/community_market.git
-cd community_market
+git clone https://github.com/PeawZaZa/community-market.git
+cd community-market
 
 # 2. ติดตั้ง dependencies
 flutter pub get
